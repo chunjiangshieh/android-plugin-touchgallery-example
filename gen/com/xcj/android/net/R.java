@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.xcj.android.touchgallery.example;
+package com.xcj.android.net;
 
 public final class R {
     public static final class attr {
