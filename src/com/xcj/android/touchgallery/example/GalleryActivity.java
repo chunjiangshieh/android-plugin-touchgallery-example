@@ -36,12 +36,10 @@ public class GalleryActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         String[] urls = {
-                "http://cs407831.userapi.com/v407831207/18f6/jBaVZFDhXRA.jpg",
-                "http://cs407831.userapi.com/v407831207/18fe/4Tz8av5Hlvo.jpg",
-                "http://cs407831.userapi.com/v407831207/1906/oxoP6URjFtA.jpg",
-                "http://cs407831.userapi.com/v407831207/190e/2Sz9A774hUc.jpg",
-                "http://cs407831.userapi.com/v407831207/1916/Ua52RjnKqjk.jpg",
-                "http://cs407831.userapi.com/v407831207/191e/QEQE83Ok0lQ.jpg"
+                "http://d.hiphotos.baidu.com/image/pic/item/54fbb2fb43166d22a4f26a8c452309f79052d225.jpg",
+                "http://c.hiphotos.baidu.com/image/w%3D230/sign=d2805518ea24b899de3c7e3b5e071d59/f31fbe096b63f62491d8461b8444ebf81a4ca325.jpg",
+                "http://a.hiphotos.baidu.com/image/pic/item/b21bb051f81986182e1f284b48ed2e738ad4e6a1.jpg",
+                "http://g.hiphotos.baidu.com/image/w%3D230/sign=455facebff039245a1b5e60cb795a4a8/024f78f0f736afc3ffa06543b019ebc4b7451263.jpg",
         };
         List<String> items = new ArrayList<String>();
         Collections.addAll(items, urls);
